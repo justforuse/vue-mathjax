@@ -1,7 +1,7 @@
 {
   "name": "vue-mathjax",
   "description": "A Vue.js Plugin for Mathjax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "allen"
   },
