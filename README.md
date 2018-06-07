@@ -63,7 +63,8 @@ export default {
 </script>
 ```
 ---
-
+# Demo
+![demo.gif](https://github.com/justforuse/vue-mathjax/raw/master/demo.gif)
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
