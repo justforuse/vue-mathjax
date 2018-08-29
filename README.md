@@ -65,6 +65,9 @@ export default {
 ---
 # Demo
 ![demo.gif](https://github.com/justforuse/vue-mathjax/raw/master/demo.gif)
+---
+# Online demo
+https://codesandbox.io/s/nrw4w90o6p
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
