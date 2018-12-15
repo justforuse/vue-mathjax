@@ -10,7 +10,7 @@ export default {
       this.renderMathJax()
     }
   },
-  mounted(){
+  mounted () {
     this.renderMathJax()
   },
   methods: {
