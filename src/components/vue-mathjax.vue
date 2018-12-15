@@ -1,13 +1,18 @@
 <template>
-  <span ref="mathJaxEl">
-    {{formula}}
-  </span>
+  <span ref="mathJaxEl">{{formula}}</span>
 </template>
 
 <script>
 export default {
   props: ['formula'],
-
+  watch: {
+    formula () {
+      this.renderMathJax()
+    }
+  },
+  mounted(){
+    this.renderMathJax()
+  },
   methods: {
     renderContent () {
       this.$refs.mathJaxEl.textContent = this.formula
@@ -37,11 +42,6 @@ export default {
           this.$refs.mathJaxEl
         ])
       }
-    }
-  },
-  watch: {
-    formula () {
-      this.renderMathJax()
     }
   }
 }
