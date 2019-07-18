@@ -4,7 +4,15 @@
 
 <script>
 export default {
-  props: ['formula'],
+  props: {
+    formula: {
+      type: String
+    },
+    safe: {
+      type: Boolean,
+      default: true
+    }
+  },
   watch: {
     formula () {
       this.renderMathJax()
@@ -15,7 +23,11 @@ export default {
   },
   methods: {
     renderContent () {
-      this.$refs.mathJaxEl.textContent = this.formula
+      if (this.safe) {
+        this.$refs.mathJaxEl.textContent = this.formula
+      } else {
+        this.$refs.mathJaxEl.innerHTML = this.formula
+      }
     },
 
     renderMathJax () {
