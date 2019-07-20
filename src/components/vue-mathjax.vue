@@ -11,6 +11,10 @@ export default {
     safe: {
       type: Boolean,
       default: true
+    },
+    options: {
+      type: Object,
+      default: {}
     }
   },
   watch: {
@@ -46,7 +50,8 @@ export default {
           'HTML-CSS': {
             styles: { '.MathJax_Display': { margin: 0 } },
             linebreaks: { automatic: true }
-          }
+          },
+          ...this.options
         })
         window.MathJax.Hub.Queue([
           'Typeset',
