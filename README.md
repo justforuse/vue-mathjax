@@ -70,6 +70,9 @@ export default {
 ## safe
 `type: boolean; default: true` sometimes you want render the html in your mathjax, so just set it to false. demo: https://codesandbox.io/s/vue-template-ftd5s
 
+## options
+`type: object; default: {}` custom configurations
+
 ---
 # Demo
 ![demo.gif](https://github.com/justforuse/vue-mathjax/raw/master/demo.gif)
