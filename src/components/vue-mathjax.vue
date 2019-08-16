@@ -14,7 +14,7 @@ export default {
     },
     options: {
       type: Object,
-      default: function() {
+      default: function () {
         return {}
       }
     }
