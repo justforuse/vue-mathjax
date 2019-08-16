@@ -14,7 +14,9 @@ export default {
     },
     options: {
       type: Object,
-      default: function(){ return {} }
+      default: function () {
+        return {}
+      }
     }
   },
   watch: {
