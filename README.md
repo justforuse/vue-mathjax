@@ -5,6 +5,12 @@
 
 A Vue.js Plugin for Mathjax
 
+## Before Usage
+
+- This is a plugin for vue2, if you are looking for vue3, maybe you can check [this](https://github.com/justforuse/vue-mathjax-next)
+
+- This plugin is not compatible with MathJax@3, you can make a PR if you know how to do it.
+
 ## Table of contents
 
 - [Installation](#installation)
