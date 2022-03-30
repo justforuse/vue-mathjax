@@ -4,8 +4,7 @@
   "main": "dist/VueMathjax.common.js",
   "module": "dist/VueMathjax.umd.min.js",
   "files": [
-    "dist/",
-    "src/"
+    "dist/*.js"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
