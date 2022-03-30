@@ -1,7 +1,12 @@
 {
   "name": "vue-mathjax",
-  "version": "0.1.0-beta.1",
-  "private": true,
+  "version": "0.1.0-beta.2",
+  "main": "dist/VueMathjax.common.js",
+  "module": "dist/VueMathjax.umd.min.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
