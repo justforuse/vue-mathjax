@@ -4,9 +4,11 @@
 
 <script>
 export default {
+  name: 'VueMathjax',
   props: {
     formula: {
       type: String,
+      default: ''
     },
     safe: {
       type: Boolean,
