@@ -1,6 +1,6 @@
 {
   "name": "vue-mathjax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/VueMathjax.common.js",
   "module": "dist/VueMathjax.umd.min.js",
   "files": [
