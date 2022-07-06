@@ -32,7 +32,7 @@
     "@vue/cli-service": "~4.5.17",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "9.2.0",
     "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.9.7",
     "vuepress-plugin-demo-container": "^0.2.0"
